@@ -1,6 +1,6 @@
 # craft-i18n roadmap
 
-> **Last updated:** 2026-11-24 · **Change:** minor (3d: SoundCraft French and Spanish catalogs)
+> **Last updated:** 2026-11-28 · **Change:** minor (3d: SoundCraft Spanish catalog complete; previously minor: SoundCraft French and Spanish catalogs)
 
 Shared translations for the storytold Crafting Apps: one catalog per locale for shared strings,
 one per app, checked in CI and embedded by each app at build time. Vocabulary is in
@@ -107,3 +107,4 @@ As surveyed on 2026-10-16 (VectorCraft recounted 2026-10-18). Locale counts excl
 | 2026-11-05 | minor | CADCraft resync before its cutover (`cadcraft@b23d362` → `cadcraft@c4d9e6a`): its Greek, Hungarian, Turkish and Vietnamese catalogs (added in the app after the 3b migration) are new here; every other CADCraft catalog takes the app's added and corrected rows and drops the prompt texts the app reworded |
 | 2026-11-08 | minor | 3b: PhotoCraft cutover sync (`photocraft@8d2e615` → `photocraft@70c0911`, 12 new PhotoCraft locales: ar, az, da, fi, he, hi, nb, ro, sv, ta, th, ur; `az` is new to craft-i18n); Hebrew's 35 `@plural` rows repeat the `other` form for CLDR's third form; credits follow PhotoCraft's `LICENSE-translations.txt` |
 | 2026-11-24 | minor | 3d: SoundCraft `fr` and `es` catalogs (1,280 and 1,286 rows) from soundcraft#143, keyed by the English strings on SoundCraft `main`; rows equal to `common.tsv` left out. They show once SoundCraft reads craft-i18n |
+| 2026-11-28 | minor | 3d: SoundCraft `es` catalog complete (2,128 rows, engine errors as `@msg`), from @SondesonRS's pass in soundcraft#143 |
